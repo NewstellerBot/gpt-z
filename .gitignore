@@ -1,0 +1,6 @@
+# for model/tokenizer checkpoints
+*.bin
+*.pth
+
+# training data 
+input.txt
