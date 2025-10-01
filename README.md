@@ -456,7 +456,7 @@ The first step to optimizing the model is calculating the forward pass. It uses 
 The next step is calculating the loss function, with respect to which the model is optimized. Since this is a classification problem—"what is the next token in the sequence"—cross entropy is used.
 
 $$
-H\left(P^*, P\right) = -\sum_{i=1}^{\text{Vocabulary Size}} P^*(w_i) \cdot \log{P(w_i)}
+H\left(P^\*, P\right) = -\sum_{i=1}^{\text{Vocabulary Size}} P^\*(w_i) \cdot \log{P(w_i)}
 $$
 
 where $P^*$ is the true probability distribution of words, $P$ is predicted distribution (from the model), and $w_i$ is $i$ th word in the vocabulary.
